@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+@font-face {
+	font-family: "Moniqa"; 
+	src: url("Moniqa-Display.otf") format("opentype"); 
+	font-style: normal; 
+	font-weight: lighter; 
+}
+
+body {
+	background-image: url(bg.png);
+	background-size: cover;
+	opacity: 0.85;
+}
+
+.arrow-img {
+	width:8vw;
+}
+
+.arrow-container {
+	margin-top: 8vh;
+}
+
+.arrow {
+	margin-top: 7.4vh;
+}
+
+.wrapper {
+	margin-left: 27vw;
+}
+
+.go-back {
+	font-size: 2vw;
+	margin-left: 1.1vw;
+	text-decoration: none;
+	color: black;
+	font-family: "Roboto";
+}
+
+.error-container{
+	margin-top: 21vh;
+}
+
+.error {
+	font-family: "Moniqa";
+	font-size: 14vw;
+	font-weight: 100;
+	margin: 0;
+}
+
+.message-container {
+	margin-top: 5.5vh;
+}
+.message {
+	font-size: 3.2vw;
+	font-family: "Roboto";
+	margin:0;
+
+}
+
+
+@media (min-width: 1200px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		background-size:120%;
+	}
+
+}
+@media (min-width: 480px) and (max-width: 767px) {
+	body {
+		background-image: url("Wood Wall.png");
+		background-size: unset;
+	}
+
+	.arrow-img {
+		width:20vw;
+	}
+
+	.arrow {
+		margin-top: 7.4vh;
+	}
+
+	.wrapper {
+		margin-left: 8vw;
+	}
+
+	.go-back {
+		font-size: 5vw;
+	}
+
+	.error-container{
+		margin-top: 20vh;
+	}
+
+	.error {
+		font-size: 35vw;
+	}
+
+	.message-container {
+		margin-top: 10vh;
+	}
+	.message {
+		font-size: 8vw;
+	}
+}
+@media (min-width: 320px) and (max-width: 479px) {
+	body {
+		background-image: url("Wood Wall.png");
+		background-size: unset;
+	}
+
+	.arrow-img {
+		width:20vw;
+	}
+
+	.arrow {
+		margin-top: 7.4vh;
+	}
+
+	.wrapper {
+		margin-left: 5vw;
+	}
+
+	.go-back {
+		font-size: 5vw;
+	}
+
+	.error-container{
+		margin-top: 22vh;
+	}
+
+	.error {
+		font-size: 35vw;
+	}
+
+	.message-container {
+		margin-top: 6.4vh;
+	}
+	.message {
+		font-size: 8.4vw;
+	}
+}
+@media (max-width: 320px) {
+	body {
+		background-image: url("Wood Wall.png");
+		background-size: unset;
+	}
+
+	.arrow-img {
+		width:20vw;
+	}
+
+	.arrow {
+		margin-top: 7.4vh;
+	}
+
+	.wrapper {
+		margin-left: 8vw;
+	}
+
+	.go-back {
+		font-size: 5vw;
+	}
+
+	.error-container{
+		margin-top: 200px
+	}
+
+	.error {
+		font-size: 35vw;
+	}
+
+	.message-container {
+		margin-top: 100px;
+	}
+	.message {
+		font-size: 8vw;
+	}
+}
